@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="kalendarz">
+		<fg>wxSYS_COLOUR_BACKGROUND</fg>
+		<bg>wxSYS_COLOUR_WINDOW</bg>
+		<id_arg>0</id_arg>
+		<style>wxDEFAULT_DIALOG_STYLE|wxRESIZE_BORDER|wxMAXIMIZE_BOX|wxMINIMIZE_BOX</style>
+		<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+			<cols>1</cols>
+			<rows>7</rows>
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<bitmap>wpt.png</bitmap>
+					<size>390,91</size>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+					<cols>3</cols>
+					<rows>1</rows>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+							<label>Dodaj wydarzenie</label>
+							<handler function="OnButton1Click" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxToggleButton" name="ID_TOGGLEBUTTON2" variable="ToggleButton2" member="yes">
+							<label>Zmień</label>
+							<handler function="OnToggleButton2Toggle" entry="EVT_TOGGLEBUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxToggleButton" name="ID_TOGGLEBUTTON1" variable="ToggleButton1" member="yes">
+							<label>Usuwaj wydarzenia</label>
+							<handler function="OnToggleButton1Toggle" entry="EVT_TOGGLEBUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxGrid" name="ID_GRID1" variable="Grid1" member="yes">
+					<cols>3</cols>
+					<readonly>1</readonly>
+					<labeltextcolour>#800040</labeltextcolour>
+					<labelfont>
+						<size>10</size>
+						<style>italic</style>
+						<weight>bold</weight>
+						<underlined>0</underlined>
+						<family>swiss</family>
+						<face>@Microsoft YaHei</face>
+					</labelfont>
+					<collabels>
+						<item>Nazwa</item>
+						<item>Data</item>
+						<item>Typ</item>
+					</collabels>
+					<handler function="OnGrid1CellLeftClick" entry="EVT_CMD_GRID_CELL_LEFT_CLICK" />
+					<handler function="OnGrid1CellRightClick" entry="EVT_CMD_GRID_CELL_RIGHT_CLICK" />
+					<handler function="OnGrid1CellLeftDClick" entry="EVT_CMD_GRID_CELL_LEFT_DCLICK" />
+					<handler function="OnGrid1SetCursor" entry="EVT_SET_CURSOR" />
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxCalendarCtrl" name="ID_CALENDARCTRL1" variable="CalendarCtrl1" member="yes">
+					<handler function="OnCalendarCtrl1DblClicked" entry="EVT_CALENDAR" />
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+					<label>Zapisz</label>
+					<handler function="OnButton2Click1" entry="EVT_BUTTON" />
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+		<object class="wxTextEntryDialog" name="ID_TEXTENTRYDIALOG1" variable="TextEntryDialog1" member="yes">
+			<caption>Wprowadzanie nowego wydarzenia</caption>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,64 @@
+Analiza Matematyczna 1		6
+Algebra liniowa		4
+Elementy logiki i teoria mnogości	4
+Wstęp do programowania		4
+Funkcje elementarne		3
+Narzędzia informatyczne I	3
+Elementy geometrii analitycznej		2
+Systemy operacyjne w inżynierii danych		2
+Bezpieczeństwo i higiena pracy		1
+Ochrona własności intelektualnej	1
+
+Analiza Matematyczna 2	6
+Algebra współczesna z zastosowaniami	4
+Matematyka dyskretna	4
+Grafika komputerowa	3
+Narzędzia informatyczna II	3
+Programowanie obiektowe	3
+Programowanie w języku R	3
+Techniki prezentacji i autoprezentacji	2
+Psychologia/socjologia	2
+
+Rachunek prawdopodobienstwa	6
+Równania różniczkowe	5
+Algorytmy i struktury danych	4
+Bazy danych	4
+Grafy i sieci	3
+Projekt z zakresu programowania	3
+Metody pozyskiwania i wizualizacji danych	3
+Język obcy	2
+Wychowanie fizyczne	0
+
+Statystyka matematyczna	5
+Metody numeryczne	5
+Ekonometria	4
+Fizyka techniczna	4
+Proj. i bezp. systemów i sieci komputerowych	4
+Podstawy teorii niezawodności	3
+Programowanie w języku Python	3
+Język obcy	2
+Wychowanie fizyczne	0
+
+Metody optymalizacji	4
+Statystyczne modele liniowe i nieliniowe	4
+Wielowymiarowa analiza danych	4
+Komputerowe systemy wspomagania pracy inżyniera	4
+Projekt z zakresu analizy danych	3
+Przedmiot obieralny 1	4
+Przedmiot obieralny 2	4
+Przedmiot obieralny 3	1
+Język obcy	2
+
+Eksploracja danych	5
+Hurtownie danych i systemy analizy danych	4
+Planowanie eksperymentu	3
+Przedmiot obieralny HES 2	2
+Przedmiot obieralny 4	4
+Przedmiot obieralny 5	4
+Przedmiot obieralny 6	2
+Przedmiot obieralny 7	2
+Seminarium dyplomowe	2
+Język obcy	2
+
+Praktyka zawodowa	25
+Praca dyplomowa	15
